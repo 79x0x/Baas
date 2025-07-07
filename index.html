@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Scratch & Win</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<img src="https://i.ibb.co/nNCT43nb/IMG-1114.jpg" class="top-img" alt="Top Image">
+
+<div class="card-container">
+  <img id="rewardImage" class="reward-layer hidden" src="https://i.ibb.co/9m8Y3s3R/IMG-1116.png" alt="Reward">
+  <div id="rewardAmount" class="reward-amount hidden">₹699</div>
+  <canvas id="scratchCanvas"></canvas>
+  <div id="scratchText" class="scratch-text">Scratch here!</div>
+</div>
+
+<img src="https://i.ibb.co/0RrqgRTj/IMG-1120.jpg" class="bottom-img" alt="Bottom Image">
+<audio id="winSound" src="https://files.catbox.moe/phmdiy.mp3"></audio>
+
+<!-- Modal -->
+<div id="upiModal" class="modal">
+  <div class="modal-box">
+    <h2>🎉 बधाई हो! ₹699 जीते!</h2>
+    <p>2 सेकंड में UPI ऐप खुलेगा...</p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
